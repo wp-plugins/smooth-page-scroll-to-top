@@ -16,9 +16,7 @@ if (!defined('DB_NAME')) {
 
 // Function Load jQuery
 function smooth_scrool_jquery() {
-	if (!is_admin()) {
 		wp_enqueue_script('jquery');
-	}
 }
 
 // Function Add in Head
