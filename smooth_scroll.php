@@ -10,17 +10,20 @@ Author URI: http://www.darkwolf.it/
 */
 
 // Prevent Direct Access with homepage redirect
-if (!defined('DB_NAME')) {
+if (!defined('DB_NAME'))
+{
 	header('Location: ../../../');
 }
 
 // Function Load jQuery
-function smooth_scrool_jquery() {
+function smooth_scrool_jquery()
+{
 		wp_enqueue_script('jquery');
 }
 
 // Function Add in Head
-function smooth_scrool_head() {
+function smooth_scrool_head()
+{
 	$smooth_scrool_lnk = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
 		echo "\n<!-- Smooth Scroll by DarkWolf -->
 <script type=\"text/javascript\" src=\"".$smooth_scrool_lnk."files/smooth_scroll.js\"></script>
@@ -29,7 +32,8 @@ function smooth_scrool_head() {
 }
 
 // Function Add in Footer
-function smooth_scrool_footer() {
+function smooth_scrool_footer()
+{
 		echo "\n<!-- Smooth Scroll by DarkWolf --><a href=\"#\" class=\"scrollup\">Scroll</a><!-- Smooth Scroll by DarkWolf -->\n";
 }
 
