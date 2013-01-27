@@ -18,7 +18,7 @@ if (!defined('DB_NAME'))
 // Function Load jQuery
 function smooth_scrool_jquery()
 {
-		wp_enqueue_script('jquery');
+	wp_enqueue_script('jquery');
 }
 
 // Function Add in Head
