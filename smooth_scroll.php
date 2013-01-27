@@ -25,7 +25,7 @@ function smooth_scrool_jquery()
 function smooth_scrool_head()
 {
 	$smooth_scrool_lnk = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
-		echo "\n<!-- Smooth Scroll by DarkWolf -->
+	echo "\n<!-- Smooth Scroll by DarkWolf -->
 <script type=\"text/javascript\" src=\"".$smooth_scrool_lnk."files/smooth_scroll.js\"></script>
 <style type=\"text/css\">@import url('".$smooth_scrool_lnk."files/smooth_scroll.css');</style>
 <!-- Smooth Scroll by DarkWolf -->\n\n";
@@ -34,7 +34,7 @@ function smooth_scrool_head()
 // Function Add in Footer
 function smooth_scrool_footer()
 {
-		echo "\n<!-- Smooth Scroll by DarkWolf --><a href=\"#\" class=\"scrollup\">Scroll</a><!-- Smooth Scroll by DarkWolf -->\n";
+	echo "\n<!-- Smooth Scroll by DarkWolf --><a href=\"#\" class=\"scrollup\">Scroll</a><!-- Smooth Scroll by DarkWolf -->\n";
 }
 
 // Run All Function
