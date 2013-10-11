@@ -3,8 +3,8 @@ Contributors: DarkWolf
 Donate link: http://www.darkwolf.it/donate-wp
 Tags: smooth, page, scroll, top, jquery, gazpo, darkwolf
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 0.2
+Tested up to: 3.6.1
+Stable tag: 0.3
 
 With this plugin you can simply have a Smooth Page Scroll "to Top" in your blog :)
 
@@ -43,6 +43,9 @@ Author and demo:
 New release available!
 
 == Changelog ==
+
+= 0.3 =
+* No more in mobile browser (thanks to detectmobilebrowsers.com script)!
 
 = 0.2 =
 * Some little changes! Nothing to important!
